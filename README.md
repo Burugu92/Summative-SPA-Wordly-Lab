@@ -7,24 +7,15 @@ This project demonstrates modern web development practices, including **API inte
 
 ---
 
-## Features
+# Features
 
-- **Word Search**  
-  Users can enter a word to fetch definitions from a public dictionary API.
+- **Word Search:** Users can enter a word to fetch definitions from the Free Dictionary API using JavaScript’s Fetch API.  
+- **Dynamic Data Display:** Displays word details including pronunciation, part of speech, definitions, synonyms, and audio playback, all updated dynamically via DOM manipulation.  
+- **Saved Words:** Users can save their favorite words for quick access later, with persistent storage using `localStorage` that keeps saved words even after closing or refreshing the page.  
+- **Error Handling:** Provides clear messages for invalid words, missing data, or API errors using JavaScript event handling.  
+- **Responsive Design:** Fully functional and visually appealing on both desktop and mobile devices using CSS and media queries.  
+- **Interactive UX:** Users experience seamless updates without page reloads, enhanced by CSS animations and dynamic JavaScript updates.
 
-- **Dynamic Data Display**  
-  Displays pronunciation, part of speech, definitions, example sentences, synonyms, and audio playback.
-
-- **Error Handling**  
-  Gracefully handles invalid words, missing data (such as no synonyms or pronunciation), and API errors.
-
-- **Responsive Design**  
-  Works smoothly on both desktop and mobile devices.
-
-- **Interactive User Experience**  
-  Seamless updates without page reloads, loading indicators, and clickable synonyms.
-
----
 
 ## Technologies Used
 
