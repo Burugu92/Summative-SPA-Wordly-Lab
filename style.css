@@ -235,6 +235,62 @@ h1 {
     transform: translateY(-2px);
 }
 
+
+/* ============================================
+   SAVED WORDS SECTION STYLES
+   ============================================ */
+.saved-words-section {
+    background: #f8f9ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.saved-words-section h3 {
+    font-size: 1.3rem;
+    color: #667eea;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#savedWordsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.saved-word {
+    background: white;
+    padding: 6px 14px;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    color: #764ba2;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.saved-word:hover {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .saved-words-section {
+        padding: 15px;
+    }
+
+    .saved-word {
+        font-size: 0.9rem;
+        padding: 5px 10px;
+    }
+}
+
+
 /* ============================================
    SOURCE LINK STYLES
    ============================================ */
