@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordly - Interactive Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Wordly</h1>
+            <p class="tagline">Your Interactive Dictionary Companion</p>
+        </header>
+
+        <section class="search-section">
+            <form id="searchForm" class="search-form" aria-label="Word search form">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Enter a word to search..." 
+                    aria-label="Search for a word"
+                    required
+                    autocomplete="off"
+                >
+                <button type="submit" id="searchBtn" aria-label="Search button">Search</button>
+            </form>
+        </section>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Searching for your word...</p>
+        </div>
+
+        <div id="errorMessage" class="error-message" role="alert"></div>
+
+        <section id="resultsSection" class="results-section" aria-live="polite">
+            <!-- Results will be dynamically inserted here -->
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
